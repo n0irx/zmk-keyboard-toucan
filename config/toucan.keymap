@@ -51,9 +51,14 @@
 
         // Totem pos 32 37  →  Corne pos 36 41
 
-        SysLayer {
+        SysLayerLeft {
             bindings = <&mo SYS>;
-            key-positions = <36 41>;
+            key-positions = <36 37>;
+        };
+
+        SysLayerRight {
+            bindings = <&mo SYS>;
+            key-positions = <40 41>;
         };
 
         // Totem pos 23 24  →  Corne pos 27 28
@@ -167,7 +172,7 @@
             bindings = <
 &trans  &lt FUN TAB                 &kp W             &kp E    &kp R                       &kp T                 &kp Y          &kp U                    &kp I        &kp O                &lt FUN P                              &trans
 &trans  &mt LS(LA(LEFT_CONTROL)) A  &mt LEFT_ALT S    &kp D    &kp F                       &kp G                 &kp H          &kp J                    &kp K        &mt LEFT_ALT L       &mt LS(LA(LEFT_CONTROL)) SINGLE_QUOTE  &trans
-&trans  &mt LEFT_CONTROL Z          &mt LEFT_SHIFT X  &lt 4 C  &kp V                       &kp B                 &kp N          &kp M                    &lt 4 COMMA  &mt RIGHT_SHIFT DOT  &mt LEFT_CONTROL Q                     &trans
+&trans  &mt LEFT_CONTROL Z          &mt LEFT_SHIFT X  &kp C    &kp V                       &kp B                 &kp N          &kp M                    &kp COMMA    &mt RIGHT_SHIFT DOT  &mt LEFT_CONTROL Q                     &trans
                                                       &trans   &mt_hold LEFT_SHIFT ESCAPE  &mt LEFT_GUI SPACE    &lt NAV ENTER  &lt_repeat SYM BACKSPACE  &trans
             >;
         };
