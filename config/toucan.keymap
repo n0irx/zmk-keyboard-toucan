@@ -170,10 +170,7 @@
         base_layer {
             display-name = "BASE";
             bindings = <
-&trans  &lt FUN TAB                 &kp W             &kp E    &kp R                       &kp T                 &kp Y          &kp U                    &kp I        &kp O                &lt FUN P                              &trans
-&trans  &mt LS(LA(LEFT_CONTROL)) A  &mt LEFT_ALT S    &kp D    &kp F                       &kp G                 &kp H          &kp J                    &kp K        &mt LEFT_ALT L       &mt LS(LA(LEFT_CONTROL)) SINGLE_QUOTE  &trans
-&trans  &mt LEFT_CONTROL Z          &mt LEFT_SHIFT X  &kp C    &kp V                       &kp B                 &kp N          &kp M                    &kp COMMA    &mt RIGHT_SHIFT DOT  &mt LEFT_CONTROL Q                     &trans
-                                                      &trans   &mt_hold LEFT_SHIFT ESCAPE  &mt LEFT_GUI SPACE    &lt NAV ENTER  &lt_repeat SYM BACKSPACE  &trans
+&trans  &lt FUN TAB  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &lt FUN P  &trans  &trans  &mt LS(LA(LEFT_CONTROL)) A  &mt LEFT_ALT S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &mt LEFT_ALT L  &mt LS(LA(LEFT_CONTROL)) SINGLE_QUOTE  &trans  &trans  &mt LEFT_CONTROL Z  &mt LEFT_SHIFT X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &mt RIGHT_SHIFT DOT  &mt LEFT_CONTROL Q  &trans  &trans  &mt_hold LEFT_SHIFT ESCAPE  &mt LEFT_GUI SPACE  &lt NAV ENTER  &lt_repeat SYM BACKSPACE  &trans
             >;
         };
 
@@ -185,10 +182,7 @@
         sym_layer {
             display-name = "SYM";
             bindings = <
-&trans  &kp AT           &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH             &kp PIPE       &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE   &kp BACKSPACE  &trans
-&trans  &kp EXCLAMATION  &kp UNDER      &kp MINUS         &kp EQUAL                 &kp AMPS       &kp HASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH   &kp QUESTION   &trans
-&trans  &kp STAR         &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp PERCENT    &kp CARET  &kp COLON             &kp SEMI               &kp DOLLAR  &kp INT_YEN    &trans
-                                        &trans            &mt LEFT_SHIFT BACKSPACE  &trans         &mo SYS    &kp KP_N0             &trans
+&trans  &kp AT  &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH  &kp PIPE  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE  &kp BACKSPACE  &trans  &trans  &kp EXCLAMATION  &kp UNDER  &kp MINUS  &kp EQUAL  &kp AMPS  &kp HASH  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH  &kp QUESTION  &trans  &trans  &kp STAR  &kp PLUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT  &kp CARET  &kp COLON  &kp SEMI  &kp DOLLAR  &kp INT_YEN  &trans  &trans  &mt LEFT_SHIFT BACKSPACE  &trans  &mo SYS  &kp KP_N0  &trans
             >;
         };
 
@@ -200,10 +194,7 @@
         nav_layer {
             display-name = "NAV";
             bindings = <
-&trans  &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3              &kp NUMBER_4              &kp NUMBER_5          &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &trans
-&trans  &trans            &mt LEFT_ALT HOME  &mt LEFT_SHIFT PAGE_DOWN  &kp PAGE_UP               &kp END               &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans        &trans
-&trans  &kp LEFT_CONTROL  &trans             &trans                    &trans                    &trans                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp MINUS     &trans
-                                             &trans                    &mt LEFT_SHIFT BACKSPACE  &mt LEFT_GUI SPACE    &trans          &trans          &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &trans  &trans  &mt LEFT_ALT HOME  &mt LEFT_SHIFT PAGE_DOWN  &kp PAGE_UP  &kp END  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp MINUS  &trans  &trans  &mt LEFT_SHIFT BACKSPACE  &mt LEFT_GUI SPACE  &trans  &trans  &trans
             >;
         };
 
@@ -215,10 +206,7 @@
         fun_layer {
             display-name = "FUN";
             bindings = <
-&trans  &LockScreen  &CloseWindow    &mmv MOVE_UP    &ScreenShoot     &ReviveWindow    &trans  &trans             &trans           &trans  &kp K_PLAY_PAUSE  &trans
-&trans  &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &QuitApp         &trans  &kp K_PREVIOUS     &kp K_NEXT       &trans  &trans            &trans
-&trans  &trans       &trans          &trans          &trans           &trans           &trans  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans  &trans            &trans
-                                     &mkp MCLK       &mkp LCLK        &mkp RCLK        &trans  &trans             &trans
+&trans  &LockScreen  &CloseWindow  &mmv MOVE_UP  &ScreenShoot  &ReviveWindow  &trans  &trans  &trans  &trans  &kp K_PLAY_PAUSE  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &QuitApp  &trans  &kp K_PREVIOUS  &kp K_NEXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
             >;
         };
 
@@ -230,10 +218,7 @@
         sys_layer {
             display-name = "SYS";
             bindings = <
-&trans  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR_ALL  &bt BT_CLR       &sys_reset      &sys_reset    &bt BT_CLR       &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &trans
-&trans  &bt BT_SEL 4  &bt BT_SEL 3  &trans          &bootloader      &out OUT_USB    &out OUT_USB  &bootloader      &trans          &bt BT_SEL 2  &bt BT_SEL 3  &trans
-&trans  &trans        &trans        &trans          &studio_unlock   &out OUT_BLE    &out OUT_BLE  &studio_unlock   &trans          &trans        &trans        &trans
-                                    &trans          &trans           &trans          &trans        &trans           &trans
+&trans  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR_ALL  &bt BT_CLR  &sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &bt BT_SEL 4  &bt BT_SEL 3  &trans  &bootloader  &out OUT_USB  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &studio_unlock  &out OUT_BLE  &out OUT_BLE  &studio_unlock  &sys_reset  &bootloader  &out OUT_USB  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
